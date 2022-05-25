@@ -6,11 +6,11 @@ import "@openzeppelin/contracts/utils/Strings.sol";
 contract BlockdevNFT is ERC721 {
     using Strings for uint256;
     string public baseURI =
-        "https://raw.githubusercontent.com/datvu1907/nft_721/main/assets/boysinhtinh.png";
+        "https://raw.githubusercontent.com/datvu1907/nft_721/main/assets/";
 
-    constructor() ERC721("NFT 721", "NFTS") {}
+    constructor() ERC721("NFT Demo", "NFTD") {}
 
-    // https://raw.githubusercontent.com/blockdev-vn/nft-demo/master/cards/1.json
+    // https://raw.githubusercontent.com/datvu1907/nft_721/main/assets/boysitinh.json
     function tokenURI(uint256 tokenId)
         public
         view
