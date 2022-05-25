@@ -1,0 +1,16 @@
+{
+    "name": "Boy si tinh",
+    "description": "Boy si tình no love",
+    "image_url": "https://raw.githubusercontent.com/datvu1907/nft_721/main/assets/boysinhtinh.png",
+    "attributes": [
+        {
+            "trait_type": "class",
+            "value": "genesis"
+        },
+        {
+            "display_type": "date",
+            "trait_type": "birthday",
+            "value": 1624955102
+        }
+    ]
+}
