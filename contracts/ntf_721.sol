@@ -1,4 +1,4 @@
-pragma solidity 0.8.0;
+pragma solidity 0.8.1;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
@@ -10,7 +10,7 @@ contract BlockdevNFT is ERC721 {
 
     constructor() ERC721("NFT Demo", "NFTD") {}
 
-    // https://raw.githubusercontent.com/datvu1907/nft_721/main/assets/boysitinh.json
+    // https://raw.githubusercontent.com/datvu1907/nft_721/main/assets/1.png
     function tokenURI(uint256 tokenId)
         public
         view
